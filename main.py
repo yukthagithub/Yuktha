@@ -30,7 +30,7 @@ def listen_for_command():
             return None
 
 # Initialize the API client (Make sure you have your Groq API key)
-client = Groq(api_key="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")
+client = Groq(api_key="YOUR API KEY HERE")
 
 def activate_assistant():
     speak("Hey there! I'm ready when you are.")
